@@ -1,4 +1,4 @@
-package lexicon.se.practice.controller.dto;
+package lexicon.se.practice.dto;
 
 public class FriendList {
 

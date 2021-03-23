@@ -9,11 +9,18 @@
     <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
     <script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
     <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
-
+<style>
+    body{
+        padding-right: 60px ;
+    }
+</style>
     <head>
 
     </head>
 <body>
+<footer th:fragment="footer_fragment" class="py-4 bg-dark">
+    <p class="m-2 text-center text-white">CopyRight &copy; Aman 2012</p>
 
+</footer>
 </body>
 </html>
